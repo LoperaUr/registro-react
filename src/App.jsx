@@ -1,4 +1,3 @@
-import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Usuarios from './components/layouts/Usuarios'
 import Home from './components/layouts/Home'

@@ -15,7 +15,7 @@ body {
 
 nav {
   display: flex;
-  background-color: #d71b1b;
+  background-color: #184e77;
   flex-direction: row-reverse;
   height: 10vh;
 }
@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #000;
+  color: #b5e48c;
 }
 
 .content {
@@ -39,19 +39,19 @@ a:hover {
 .card-container {
   height: 90vh;
   width: 50vw;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
   float: left;
-  background-color: purple;
+  background-color: #168aad;
 }
 
 .card-container {
   display: inline-block;
-  background-color: rgb(0, 255, 34);
+  background-color: #52b69a;
 }
 
 form {
@@ -63,9 +63,14 @@ form {
 }
 
 input {
-  margin: 10px;
+  margin-bottom: 5%;
   width: 200px;
-  height: 20px;
+  height: 25px;
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 5px;
 }
 
 .button-submit {
@@ -75,15 +80,16 @@ input {
   flex-wrap: wrap;
   width: 100px;
   height: 30px;
-  background-color: #000;
-  color: white;
+  background-color: #d9ed92;
+  color: #000;
+  border: 1px solid #000;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .button-submit:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
 }
 
 .card {
@@ -96,4 +102,31 @@ input {
 
 h4 {
   margin-bottom: 20px;
+}
+
+input {
+  color: #000;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100vw;
+  background-color: #d3d6d0;
+}
+
+.home-tittle {
+  color: #000;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.home-container p {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  
 }
